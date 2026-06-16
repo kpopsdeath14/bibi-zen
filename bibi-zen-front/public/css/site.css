@@ -1,0 +1,57 @@
+.ant-card .ant-card-body {
+    padding: 0px;
+}
+
+.ant-space-gap-row-small {
+    row-gap: 0px;
+}
+
+.ant-form-item {
+  margin-bottom: 12px;
+}
+
+
+@font-face {
+  font-family: 'cabrito';
+  src: url('fonts/CabritoContrast-Thin.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+.roboto-flex-<uniquifier> {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "XOPQ" 96,
+    "XTRA" 468,
+    "YOPQ" 79,
+    "YTAS" 750,
+    "YTDE" -203,
+    "YTFI" 738,
+    "YTLC" 514,
+    "YTUC" 712;
+}
+
+
+.ant-input::placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #999;
+  opacity: 1;
+}
+
+
+.ant-layout-header {
+  line-height: normal !important;
+}
+
+.tariff-scroll::-webkit-scrollbar {
+  display: none;
+}
